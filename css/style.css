@@ -1,0 +1,14 @@
+.jumbotron {
+    background: #337ab7;
+    font-family: 'Aclonica';
+    text-align: center;
+    color: aliceblue;
+}
+
+body {
+    background-image: url("https://www.colourbox.com/image/closeup-of-an-old-railway-junction-with-gap-image-4647454");
+}
+
+.panel-title {
+    font-family: 'Aclonica';
+}
