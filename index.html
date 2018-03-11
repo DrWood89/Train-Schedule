@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="refresh" content="30"> -->
     <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,6 +19,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <!-- Moment.js Reference -->
     <!-- <script src="http://momentjs.com/downloads/moment.js"></script>   -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
@@ -28,7 +30,8 @@
     <div class="container">
         <div class="jumbotron">
             <h1>RailWay Station</h1>
-            <p>Train Schedule</p>
+            <img id="logo" src="images/train1.png" alt="Smiley face" height="50" width="50" style="background-color:aliceblue">
+            <p>Live Update Train Schedule</p>
         </div>
 
         <div class="panel panel-primary">
@@ -46,6 +49,7 @@
                                 <th>Frequency (min)</th>
                                 <th>Next Arrival</th>
                                 <th>Minutes Away</th>
+                                <th>Remove</th>
                             </tr>
                         </thead>
                         <tbody>

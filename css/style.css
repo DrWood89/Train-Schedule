@@ -1,14 +1,35 @@
 .jumbotron {
-    background: #337ab7;
+    background: #01386b;
     font-family: 'Aclonica';
     text-align: center;
     color: aliceblue;
 }
 
 body {
-    background-image: url("https://www.colourbox.com/image/closeup-of-an-old-railway-junction-with-gap-image-4647454");
+    background-image: url("../images/train_time.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150% auto;
 }
 
 .panel-title {
     font-family: 'Aclonica';
+}
+
+.panel .panel-heading {
+    background-color:  #01386b;
+}
+
+.panel {
+    background-color: #acdaf8;
+    border: #01386b;
+    outline: none;
+}
+
+.remove {
+    background: #01386b;
+    color: white;
+}
+
+#logo {
+    border-radius: 50%;
 }

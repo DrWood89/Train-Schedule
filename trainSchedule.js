@@ -40,12 +40,20 @@ $("#addTrain").on("click", function(event) {
   $("#destination-input").val("");
   $("#first-train-input").val("");
   $("#frequency-input").val("");
-
+  update();
 });
 
+$(document).on("click", '.remove', function(event) {
+  $(this).closest('tr').remove();
+  // database.ref().orderByChild('name').equalTo()
 
-// 3. Create Firebase event for adding employee to the database and a row in the html when a user adds an entry
-database.ref().on("child_added", function(childSnapshot, prevChildKey) {
+}) 
+
+
+// 3. Create Firebase event for adding train to the database and a row in the html when a user adds an entry
+function update() {
+  $("#train-table > tbody").html("");
+  database.ref().on("child_added", function(childSnapshot, prevChildKey) {
   
     // Store everything into a variable.
     var trainName = childSnapshot.val().name;
@@ -65,7 +73,11 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey) {
       var tminutesAway = trainFrequency - tRemainder;
       // Next Train
       var nextArrival = moment().add(tminutesAway, "m");
-
+    
       $("#train-table > tbody").append("<tr><td>" + trainName + "</td><td>" + trainDestination + "</td><td>" + trainFrequency + "</td><td>" +
-      moment(nextArrival).format("hh:mm") + "</td><td>" + tminutesAway + "</td></tr>");
+      moment(nextArrival).format("hh:mm") + "</td><td>" + tminutesAway  + "</td><td><button class='remove'>Delete</button>" + "</td></tr>");
    });
+  }
+  update();
+  
+  setInterval(update, 1000);
