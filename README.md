@@ -24,7 +24,7 @@ away using moment.js
 This app is intented to showcase the ability to work with firebase, moment and JQuery logic to create a live updated
 train schedule web app and the ability to work with persistant data.
 
-Below is deployed link to the working site.
+**Note:** Below is deployed link to the working site.
 
 ---
 ### 2-Technologies  :computer:
