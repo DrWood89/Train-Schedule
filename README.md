@@ -1,6 +1,7 @@
 # Train-Schedule
 A Live (real time update) Train Schedule!
 
+---
 ## :mag: Table of contents :mag:
 
 ### [1-Description](https://github.com/DrWood89/Train-Schedule#1-description-page_facing_up)
