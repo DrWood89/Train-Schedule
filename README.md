@@ -8,8 +8,8 @@ A Live (real time update) Train Schedule!
 ### [2-Technologies](https://github.com/DrWood89/Train-Schedule#2-technologies-computer)
 ### [3-Challenges](https://github.com/DrWood89/Train-Schedule#3-challenges)
 ### [4-Issues](https://github.com/DrWood89/Train-Schedule#4-issues)
-### [5-Future Updates](https://github.com/DrWood89/Train-Schedule#4-future-updates)
-### [6-Preview Link](https://github.com/DrWood89/Train-Schedule#5-preview-link)
+### [5-Future Updates](https://github.com/DrWood89/Train-Schedule#5-future-updates)
+### [6-Preview Link](https://github.com/DrWood89/Train-Schedule#6-preview-link)
 
 ---
 ### 1-Description :page\_facing\_up:
