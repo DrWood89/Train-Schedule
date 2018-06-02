@@ -13,7 +13,18 @@ A Live (real time update) Train Schedule!
 ---
 ### 1-Description :page\_facing\_up:
 
-This real time live update app
+This real time live update app. This live update train schedule allows you to view the trains already in the schedule
+including the train name, Destination, Frequency in minutes, Next Arrival, Miniutes Away and a remove button all 
+update in real time.
+
+It also allows you to add a new train into the schedule grabbing inputs from the addTrain form to populate a new column 
+in the schedule table. With the first train time and train frequency it allows us to calculate next arrival and minutes
+away using moment.js
+
+This app is intented to showcase the ability to work with firebase, moment and JQuery logic to create a live updated
+train schedule web app and the ability to work with persistant data.
+
+Below is deployed link to the working site.
 
 ---
 ### 2-Technologies  :computer:
